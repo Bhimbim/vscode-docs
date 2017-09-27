@@ -155,6 +155,7 @@ This will create a sample `tasks.json` file in the workspace `.vscode` folder.  
             "taskName": "Sass Compile",
             "type": "shell",
             "command": "node-sass styles.scss styles.css",
+            // FOR MORE DYNAMIC -> "command" : "node-sass wwwroot/sass/*.sass wwwroot/css/*.css", 
             "group": "build"
         }
     ]
